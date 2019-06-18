@@ -1,4 +1,5 @@
 # liste-prenoms-nouveaux-nes 1.1.3
+
 Spécification de la liste annuelle des prénoms des nouveaux-nés déclarés à l'état-civil.
 
 La liste annuelle des prénoms des nouveaux-nés est un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance de l'état-civil.
@@ -6,6 +7,26 @@ La liste annuelle des prénoms des nouveaux-nés est un jeu de données simple e
 Ce schéma décrit le détail de chaque champ. Pour chacun, nous fournissons également l'expression rationnelle informatique (ou "regexp") qui permet de contrôler le contenu du champ.
 
 La dernière version de cette spécification est disponible à l'adresse : https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes
+
+## Contexte
+
+Le modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil spécifie la structure et le contenu d'un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms déclarés à l'état-civil de la commune de naissance, avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance.
+
+Il a été élaboré par [Charles Népote](mailto:charles.nepote@fing.org) à partir du recueil et de l'observation des fichiers produits en open data par plusieurs communes françaises, publiés dès 2012. Il s'est nourri de l'observation des usages et a puisé également dans les textes de lois ou textes de référence qui standardisent la forme des prénoms en français.
+
+La source de cette spécification est disponible sur le [dépôt Github de Charles Nepote](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes). Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
+
+## Voir aussi
+
+La spécification du modèle de données peut être utilement complétée par les documents suivants :
+
+* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-prenoms.xlsx)
+* [Schéma de validation](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes/blob/v1.1.2/prenom-schema.json)
+
+Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
+
+* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Prénoms)
+* ouvrir un ticket sur le [dépôt Github de Charles Nepote](https://github.com/CharlesNepote/liste-prenoms-nouveaux-nes/issues/new)
 
 ## Origine du standard
 Ce standard a tout d'abord été élaboré à partir du recueil et de l'observation des fichiers produits en open data par plusieurs communes françaises, publiés dès 2012. Il s'est nourri de l'observation des usages et a puisé également dans les textes de lois ou textes de référence qui standardisent la forme des prénoms en français.
