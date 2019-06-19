@@ -1,6 +1,6 @@
-# liste-prenoms-nouveaux-nes 1.1.3
+# Prénoms des nouveaux-nés
 
-Spécification de la liste annuelle des prénoms des nouveaux-nés déclarés à l'état-civil.
+Spécification du modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil.
 
 La liste annuelle des prénoms des nouveaux-nés est un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance de l'état-civil.
 
